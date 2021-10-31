@@ -13,7 +13,7 @@ function changeClasses(){
 function changeText(){
     const lightMode = "Light Mode";
     const darkMode = "Dark Mode";
-    if (body.classList.contains('darkModeClass')){
+    if (body.classList.contains(darkModeClass)){
         button.innerHTML = lightMode;
         h1.innerHTML = darkMode + " ON";
         return;
